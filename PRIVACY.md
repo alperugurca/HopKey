@@ -1,4 +1,4 @@
-# Privacy Policy — HopKey
+# HopKey Privacy Policy
 
 **Last updated: March 2026**
 
@@ -37,3 +37,4 @@ HopKey does not use any third-party analytics, advertising, or tracking services
 
 If you have any questions about this privacy policy, open an issue at:
 [github.com/alperugurcan/HopKey/issues](https://github.com/alperugurcan/HopKey/issues)
+
