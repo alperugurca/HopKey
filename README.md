@@ -18,6 +18,8 @@ For example, type `g` and press Enter → Google. Type `gh` → GitHub. You defi
 
 ### Use
 
+![HopKey popup](assets/popup.png)
+
 - Click the HopKey icon to open the popup.
 - **Add a shortcut:** type a key (e.g. `gh`) and a URL (e.g. `https://github.com`), click **Add Shortcut**.
 - **Delete a shortcut:** click `×` next to any row.
