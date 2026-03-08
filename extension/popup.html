@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HopKey</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <h1>HopKey</h1>
+    <p class="subtitle">Type a key in the address bar → hop there instantly.</p>
+  </header>
+
+  <section class="add-form">
+    <div class="add-form-inputs">
+      <input id="input-key" type="text" placeholder="Key (e.g. g)" maxlength="30" />
+      <input id="input-url" type="text" placeholder="URL (e.g. https://github.com)" />
+    </div>
+    <button id="btn-add" class="btn-add-full">Add Shortcut</button>
+  </section>
+
+  <section class="list-section">
+    <div id="shortcut-list"></div>
+  </section>
+
+  <section class="actions">
+    <div class="action-row">
+      <button id="btn-export" class="secondary">Export JSON</button>
+      <button id="btn-import-file" class="secondary">Import JSON</button>
+      <button id="btn-import-main" class="secondary accent" title="Import community shortcuts from GitHub">↓ Community</button>
+      <input id="file-input" type="file" accept=".json" style="display:none" />
+    </div>
+    <div class="action-row import-url-row">
+      <input id="input-url-import" type="text" placeholder="Raw GitHub URL to shortcuts.json" />
+      <button id="btn-import-url" class="secondary">Import from URL</button>
+    </div>
+    <p id="status-msg" class="status-msg"></p>
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+</html>
